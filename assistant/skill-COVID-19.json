@@ -1,0 +1,4362 @@
+{
+  "intents": [
+    {
+      "intent": "aclarar_rumores",
+      "examples": [
+        {
+          "text": "cuales son los mitos sobre el coronavirus?"
+        },
+        {
+          "text": "cuales son rumores sobre el coronavirus?"
+        },
+        {
+          "text": "después de tener el virus me hago inmune?"
+        },
+        {
+          "text": "el ajo ayuda contra el virus?"
+        },
+        {
+          "text": "el alcohol del fernet evita que me de coronavirus?"
+        },
+        {
+          "text": "el clima caluroso mata el virus?"
+        },
+        {
+          "text": "el coronavirus sobrevive en el calor?"
+        },
+        {
+          "text": "el coronavirus sobrevive en el frio?"
+        },
+        {
+          "text": "el coronavirus sobrevive en la nieve?"
+        },
+        {
+          "text": "el frio mata al virus?"
+        },
+        {
+          "text": "el frio mata el virus?"
+        },
+        {
+          "text": "el virus sobrevive el calor?"
+        },
+        {
+          "text": "el virus te queda de por vida?"
+        },
+        {
+          "text": "el vodka me ayuda a evitar el contagio?"
+        },
+        {
+          "text": "¿Es cierto que el alcohol mata al coronavirus?"
+        },
+        {
+          "text": "es cierto que las bebidas calientes matan el virus?"
+        },
+        {
+          "text": "es contagioso saludar a alguien con la mano?"
+        },
+        {
+          "text": "es contagioso saludar a otros?"
+        },
+        {
+          "text": "Es verdad que el virus está en el aire?"
+        },
+        {
+          "text": "¿Es verdad que el virus se muere con el frio?"
+        },
+        {
+          "text": "Es verdad que me contagio por saludar con la mano?"
+        },
+        {
+          "text": "La lavandina mata el virus?"
+        },
+        {
+          "text": "la nieve mata el virus?"
+        },
+        {
+          "text": "Las vacunas contra la neumonía, ¿sirven contra el coronavirus?"
+        },
+        {
+          "text": "los niños pueden contagiarse coronavirus?"
+        },
+        {
+          "text": "me contagio de covid19 si soy joven?"
+        },
+        {
+          "text": "Me decis los mitos sobre el covid 19"
+        },
+        {
+          "text": "mi gato puede contagiarse covid19?"
+        },
+        {
+          "text": "mi perro puede tener coronavirus?"
+        },
+        {
+          "text": "¿podes confirmarme si me contagio por tomar mate?"
+        },
+        {
+          "text": "puedo contagiarme coronavirus si soy joven?"
+        },
+        {
+          "text": "puedo tener el virus mas de una vez?"
+        },
+        {
+          "text": "que rumor es falso?"
+        },
+        {
+          "text": "¿se puede contagiar mi mascota?"
+        },
+        {
+          "text": "Si aguanto la respiración 10 segundos significa que no tengo coronavirus?"
+        },
+        {
+          "text": "si aguanto la tos por 10 segundos entonces no tengo covid19?"
+        },
+        {
+          "text": "sirve si me paso lavandina por las manos?"
+        },
+        {
+          "text": "sirve si me tiro cloro en el cuerpo?"
+        },
+        {
+          "text": "si tomo alcohol mato el virus?"
+        },
+        {
+          "text": "si tomo cerveza me ayuda a evitar el contagio?"
+        },
+        {
+          "text": "si tomo sol me ayuda a que no me contagie?"
+        },
+        {
+          "text": "si vivo en una zona calurosa no puedo contagiarme el virus?"
+        },
+        {
+          "text": "tomar sol evita que me de coronavirus?"
+        },
+        {
+          "text": "tomar vino me ayuda a prevenir el covid19?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cancelar",
+      "examples": [
+        {
+          "text": "anular"
+        },
+        {
+          "text": "basta"
+        },
+        {
+          "text": "cancelalo por favor"
+        },
+        {
+          "text": "cancelar"
+        },
+        {
+          "text": "canselar"
+        },
+        {
+          "text": "cortala"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "finalizar"
+        },
+        {
+          "text": "parar"
+        },
+        {
+          "text": "quiero cancelar"
+        },
+        {
+          "text": "Quiero cancelarlo"
+        },
+        {
+          "text": "quiero suspenderlo"
+        },
+        {
+          "text": "salir"
+        },
+        {
+          "text": "suspendelo"
+        },
+        {
+          "text": "suspender"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cierres_Escuelas_COVID",
+      "examples": [
+        {
+          "text": "¿Cómo afectará el cierre los registros de asistencia de mi hijo?"
+        },
+        {
+          "text": "¿Cómo puedo obtener las últimas noticias sobre el cierre de mi escuela?"
+        },
+        {
+          "text": "¿Cuándo abrirán las escuelas?"
+        },
+        {
+          "text": "¿cuando van a volver las clases?"
+        },
+        {
+          "text": "¿cuando vuelven los pibes al colegio?"
+        },
+        {
+          "text": "¿Debería mi hijo quedarse en casa y no irse a la escuela?"
+        },
+        {
+          "text": "¿estan abiertas las escuelas?"
+        },
+        {
+          "text": "¿están abiertas las escuelas?"
+        },
+        {
+          "text": "¿funcionan las esuelas privadas?"
+        },
+        {
+          "text": "¿funcionan los comedores de los colegios?"
+        },
+        {
+          "text": "¿hay clases?"
+        },
+        {
+          "text": "¿los comedores de las escuelas están cerrados?"
+        },
+        {
+          "text": "¿Los estudiantes aún se graduarán este año?"
+        },
+        {
+          "text": "¿Puede mi hijo ir a la escuela?"
+        },
+        {
+          "text": "pueden los chicos ir al Colegio ?"
+        },
+        {
+          "text": "¿puedo ir al colegio?"
+        },
+        {
+          "text": "¿que pasa con las instituciones educativas?"
+        },
+        {
+          "text": "¿Qué significa el cierre escolar ordenado para las boletas de calificaciones?"
+        },
+        {
+          "text": "¿Qué sucede después de que finaliza el período de cierre ordenado de tres semanas?"
+        },
+        {
+          "text": "¿Se cierran las escuelas?"
+        }
+      ],
+      "description": "Información sobre escuelas locales."
+    },
+    {
+      "intent": "definicion",
+      "examples": [
+        {
+          "text": "a que se denomina co-vid19"
+        },
+        {
+          "text": "¿Cómo se transmite COVID-19?"
+        },
+        {
+          "text": "¿De dónde vino el coronavirus?"
+        },
+        {
+          "text": "de que se trata el covid 19?"
+        },
+        {
+          "text": "el coronavirus es una gripe?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que el SARS?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que MERS?"
+        },
+        {
+          "text": "¿Es el coronavirus lo mismo que un resfriado?"
+        },
+        {
+          "text": "¿Qué es COVID-19?"
+        },
+        {
+          "text": "que es el coronavirus"
+        },
+        {
+          "text": "que es el covid?"
+        },
+        {
+          "text": "¿qué es el nuevo coronavirus?"
+        },
+        {
+          "text": "que es el virus de covid19?"
+        },
+        {
+          "text": "que son los coronavirus?"
+        },
+        {
+          "text": "¿Qué tan peligroso es esto?"
+        },
+        {
+          "text": "¿Se ha identificado la causa de COVID-19?"
+        }
+      ],
+      "description": "información general sobre el coronavirus"
+    },
+    {
+      "intent": "denuncia_aislamiento",
+      "examples": [
+        {
+          "text": "A que numero llamo para hacer la denuncia?"
+        },
+        {
+          "text": "Como aviso que alguien rompio la cuarentena?"
+        },
+        {
+          "text": "¿como denuncio a alguien que no se queda en la casa?"
+        },
+        {
+          "text": "como hago una denuncia por violar la cuarentena?"
+        },
+        {
+          "text": "Conozco gente que violo la cuarentena"
+        },
+        {
+          "text": "el 134 no me atiende para denunciar"
+        },
+        {
+          "text": "mi jefe no cumple la cuarentena"
+        },
+        {
+          "text": "mi vecino no cumple la cuarentena"
+        },
+        {
+          "text": "mi vecino no está haciendo el aislamiento"
+        },
+        {
+          "text": "Que hago si alguien no cumple con la cuarentena?"
+        },
+        {
+          "text": "Quiero denunciar a alguien que no cumplió la cuarentena"
+        },
+        {
+          "text": "Quiero hacer una denuncia por no cumplir la cuarentena"
+        },
+        {
+          "text": "Si sé que alguien no cumplió con la cuarentena obligatoria, ¿puedo denunciarlo?"
+        },
+        {
+          "text": "un amigo volvió de viaje y no hizo el aislamiento"
+        },
+        {
+          "text": "Veo gente que no cumple con el aislamiento"
+        }
+      ],
+      "description": "informacion sobre como denunciar incumplimiento de aislamiento"
+    },
+    {
+      "intent": "excepciones_aislamiento",
+      "examples": [
+        {
+          "text": "actividades exceptuadas"
+        },
+        {
+          "text": "¿cuales son las excepciones al aislamiento?"
+        },
+        {
+          "text": "El Personal de Salud tiene que hacer cuarentena?"
+        },
+        {
+          "text": "los comerciantes pueden salir?"
+        },
+        {
+          "text": "Los medicos tienen que hacer cuarentena?"
+        },
+        {
+          "text": "Me tengo que quedar en cuarentena si soy de las Fuerzas Armadas?"
+        },
+        {
+          "text": "quienes están exceptuados?"
+        },
+        {
+          "text": "¿quienes pueden salir en cuarentena?"
+        },
+        {
+          "text": "Si controlador de transito aéreo, tengo que hacer la cuarentena?"
+        },
+        {
+          "text": "Si soy bombero tengo que cumplir la cuarentena"
+        },
+        {
+          "text": "si soy de las Fuerzas de seguridad tengo que aislarme?"
+        },
+        {
+          "text": "soy de seguridad, puedo salir a trabjar?"
+        },
+        {
+          "text": "Soy enfermera, puedo ir a trabajar?"
+        },
+        {
+          "text": "Soy médico, puedo salir?"
+        },
+        {
+          "text": "Soy policia, me tengo que quedar en casa?"
+        },
+        {
+          "text": "Trabajo en un laboratorio, puedo salir?"
+        },
+        {
+          "text": "Trabajo en un supermercado, puedo circular?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fuentes_informacion",
+      "examples": [
+        {
+          "text": "cual es la fuente de esta información?"
+        },
+        {
+          "text": "cuales son tus fuentes?"
+        },
+        {
+          "text": "¿cual es tu fuente?"
+        },
+        {
+          "text": "de donde es la info?"
+        },
+        {
+          "text": "de donde obtenes esta informacion?"
+        },
+        {
+          "text": "¿de donde sacas esta información?"
+        },
+        {
+          "text": "de donde sacás la data?"
+        },
+        {
+          "text": "donde aprendiste esto?"
+        },
+        {
+          "text": "¿Donde aprendiste todo esto?"
+        },
+        {
+          "text": "Es confiable tu informacion?"
+        },
+        {
+          "text": "esta chequeada tu información?"
+        },
+        {
+          "text": "esta información de donde sale?"
+        },
+        {
+          "text": "me decís tus fuentes?"
+        },
+        {
+          "text": "me explicás de donde conseguis toda la información que me contás?"
+        },
+        {
+          "text": "¿quien te enseñó sobre el coronavirus?"
+        },
+        {
+          "text": "Todo esto de donde sale?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "¿Con qué tipo de robot estoy interactuando?"
+        },
+        {
+          "text": "¿Cuál es su versión?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+        },
+        {
+          "text": "¿Hablas alemán?"
+        },
+        {
+          "text": "Me gustaría configurar el bot de conversación para mi negocio."
+        },
+        {
+          "text": "Me puedes decir como se llama la aplicación?"
+        },
+        {
+          "text": "¿Puede darme información general sobre usted?"
+        },
+        {
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "text": "Quiero crear un agente virtual que hable portugués"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Tienes algún interés?"
+        }
+      ],
+      "description": "Solicitar atributos personales genéricos."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "capabilities"
+        },
+        {
+          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas me puedes ayudar?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        },
+        {
+          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Podría esperar un segundo por favor?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
+        },
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes esperar un poquito?"
+        },
+        {
+          "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "¿Qué clase de cosas haces?"
+        },
+        {
+          "text": "¿Qué hace un agente digital? ¿Para qué te uso?"
+        },
+        {
+          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
+        },
+        {
+          "text": "Que puedo preguntarte?"
+        },
+        {
+          "text": "que sabes hacer?"
+        },
+        {
+          "text": "¿Qué tipo de información y problemas puedes resolver para mí?"
+        },
+        {
+          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
+        },
+        {
+          "text": "¿Qué tipo de cosas puede hacer por mí?"
+        },
+        {
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        }
+      ],
+      "description": "Solicitar capacidades del bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Ayudame a ponerme en contacto con una persona."
+        },
+        {
+          "text": "Buenos días podría hablar por teléfono contigo?"
+        },
+        {
+          "text": "Cómo puedo contactar un ser vivo?"
+        },
+        {
+          "text": "Creo que es mejor hablar con una persona."
+        },
+        {
+          "text": "Dejame hablar con un agente."
+        },
+        {
+          "text": "Deseo hablar con un agente."
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "Hola, me conectas con el soporte tecnico?"
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Necesito hablar con alquien vivo."
+        },
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "No quiero hablar con el agente virtual."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "Puedes transferirme a un agente real?"
+        },
+        {
+          "text": "Puedo hablar con una persona?"
+        },
+        {
+          "text": "Puedo hablar con una persona real?"
+        },
+        {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
+          "text": "Quiero hablar con una persona."
+        },
+        {
+          "text": "Quiero que me pongan en contacto con un número diferente para las cosas relacionadas con esta cuenta."
+        },
+        {
+          "text": "Sería posible hablar con una persona?"
+        },
+        {
+          "text": "Transferirme a un agente por favor."
+        }
+      ],
+      "description": "Solicitar un agente humano"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "holis"
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Tienes un momento, por favor?"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Eres un agente virtual?"
+        },
+        {
+          "text": "Eres una máquina o una persona real?"
+        },
+        {
+          "text": "Eres un operador virtual o vivo?"
+        },
+        {
+          "text": "Estoy hablando con una persona o con una maquina?"
+        },
+        {
+          "text": "Estoy hablando con un chatbot?"
+        },
+        {
+          "text": "Hablo con una máquina?"
+        },
+        {
+          "text": "Hablo con una persona?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
+        },
+        {
+          "text": "Me das respuestas automaticas?"
+        },
+        {
+          "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Quiero saber si eres real o no"
+        },
+        {
+          "text": "Sos máquina o sos persona?"
+        },
+        {
+          "text": "Sos un asistente virtual?"
+        },
+        {
+          "text": "Sos un chatbot?"
+        },
+        {
+          "text": "Sos un humano?"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
+        }
+      ],
+      "description": "Preguntar si habla con un humano o un bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Cuál es tu chiste favorito?"
+        },
+        {
+          "text": "Cuéntame un chiste."
+        },
+        {
+          "text": "Dime algo divertido."
+        },
+        {
+          "text": "Dime otro chiste!"
+        },
+        {
+          "text": "Dime un chiste."
+        },
+        {
+          "text": "Dime un chiste sarcástico."
+        },
+        {
+          "text": "Divierteme!"
+        },
+        {
+          "text": "Estoy aburrido."
+        },
+        {
+          "text": "Me aburro."
+        },
+        {
+          "text": "Me gustan los chistes, cuéntame uno."
+        },
+        {
+          "text": "Me gustaría que me diviertas."
+        },
+        {
+          "text": "Puedes entretenerme?"
+        },
+        {
+          "text": "Puedo jugar juegos aquí?"
+        },
+        {
+          "text": "Qué sueles hacer para divertirte?"
+        },
+        {
+          "text": "Quiero reírme un poco, cuéntame algo divertido."
+        },
+        {
+          "text": "Sabes contar chistes?"
+        },
+        {
+          "text": "Sorpréndeme con algo chistoso."
+        },
+        {
+          "text": "Te gusta hacer chistes?"
+        },
+        {
+          "text": "Te gustan los chistes?"
+        },
+        {
+          "text": "Te ha pasado algo chistoso hoy?"
+        }
+      ],
+      "description": "Solicito una broma"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
+        },
+        {
+          "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "El comportamiento del agente era inapropiado."
+        },
+        {
+          "text": "Eres un inútil."
+        },
+        {
+          "text": "Espero no necesitar tu ayada más."
+        },
+        {
+          "text": "Este servicio no sirve para nada."
+        },
+        {
+          "text": "Estoy muy decepcionado."
+        },
+        {
+          "text": "Increíble, mi problema sigue sin resolverse un mes."
+        },
+        {
+          "text": "La peor experiencia que he tenido en mi vida con un agente."
+        },
+        {
+          "text": "Lo que me estás diciendo es muy frustrante."
+        },
+        {
+          "text": "Me has proporcionado la información errónea."
+        },
+        {
+          "text": "No estoy de acuerdo."
+        },
+        {
+          "text": "No me has dicho la verdad."
+        },
+        {
+          "text": "No me lo creo."
+        },
+        {
+          "text": "No me trates así."
+        },
+        {
+          "text": "No puede ser!"
+        },
+        {
+          "text": "No te mereces este trabajo."
+        },
+        {
+          "text": "Nunca me has ayudado."
+        },
+        {
+          "text": "Tu comportamiento es inexcusable."
+        },
+        {
+          "text": "Voy a quejarme."
+        }
+      ],
+      "description": "Expresar comentarios desfavorables."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "Eres muy profesional."
+        },
+        {
+          "text": "Espero que me atiendas también la próxima vez."
+        },
+        {
+          "text": "Estoy muy contento con su servicio."
+        },
+        {
+          "text": "Es un placer trabajar contingo."
+        },
+        {
+          "text": "Excelente!"
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "Gracias por todo!"
+        },
+        {
+          "text": "Me alegraste el día."
+        },
+        {
+          "text": "Me gustaría llenar la encuesta de satisfacción."
+        },
+        {
+          "text": "Me salvaste!"
+        },
+        {
+          "text": "Muchísimas gracias por tu ayuda!"
+        },
+        {
+          "text": "Muy amable!"
+        },
+        {
+          "text": "Muy bien!"
+        },
+        {
+          "text": "Perfecto!"
+        },
+        {
+          "text": "Siempre puedo contar con su ayuda."
+        },
+        {
+          "text": "Siempre resuelves mis problemas, gracias."
+        }
+      ],
+      "description": "Expresar un sentimiento positivo o gratitud."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
+        },
+        {
+          "text": "¿Cómo puedo garantizar la protección de la información de los consumidores?"
+        },
+        {
+          "text": "¿Cómo reconzco si su página web es confiable?"
+        },
+        {
+          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
+        },
+        {
+          "text": "Cómo sé que este chat no es una estafa?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
+          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
+        },
+        {
+          "text": "que pasa con mis datos?"
+        },
+        {
+          "text": "Qué sistemas de protección usan contra los hackers?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+        }
+      ],
+      "description": "Expresar preocupaciones sobre la seguridad del bot."
+    },
+    {
+      "intent": "Limpieza_Desinfección_COVID",
+      "examples": [
+        {
+          "text": "como debería ser la higiene del hogar"
+        },
+        {
+          "text": "¿Cómo desinfecto los pisos?"
+        },
+        {
+          "text": "Como limpio la ropa cuando salgo?"
+        },
+        {
+          "text": "¿Cómo limpio mi casa correctamente?"
+        },
+        {
+          "text": "cómo me deshago de los gérmenes en mi casa?"
+        },
+        {
+          "text": "¿Con qué frecuencia necesito limpiar mi casa para evitar la propagación del coronavirus?"
+        },
+        {
+          "text": "¿Cuál es la diferencia entre limpiar y desinfectar?"
+        },
+        {
+          "text": "¿Debo rociarme a mí o a mis hijos con desinfectante?"
+        },
+        {
+          "text": "engo que desinfectar las compras del super?"
+        },
+        {
+          "text": "¿Hay desinfectantes disponibles que puedan inactivar o matar COVID-19?"
+        },
+        {
+          "text": "hay que desinfectar frutas y verduras?"
+        },
+        {
+          "text": "hay que sanitizar vegetales?"
+        },
+        {
+          "text": "Medidas de higiene"
+        },
+        {
+          "text": "¿Necesito toallitas lysol?"
+        },
+        {
+          "text": "¿puedo desinfectar con lavandina pura?"
+        },
+        {
+          "text": "puedo limpiar con toallitas desinfectantes?"
+        },
+        {
+          "text": "¿Qué métodos de limpieza matan el coronavirus?"
+        },
+        {
+          "text": "¿Sirve la lavandina para desinfectar?"
+        },
+        {
+          "text": "tengo que limpiar el piso?"
+        },
+        {
+          "text": "tengo que limpiar la mesada tambien?"
+        },
+        {
+          "text": "¿Tengo que usar lejía o cloro para matar el coronavirus?"
+        },
+        {
+          "text": "Todas las tiendas no tienen toallitas desinfectantes, ¿qué hago?"
+        }
+      ],
+      "description": "Cómo limpiar y desinfectar."
+    },
+    {
+      "intent": "negativo",
+      "examples": [
+        {
+          "text": "creo que no"
+        },
+        {
+          "text": "negativo"
+        },
+        {
+          "text": "ni a palos"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "n o"
+        },
+        {
+          "text": "no gracias"
+        },
+        {
+          "text": "no me interesa"
+        },
+        {
+          "text": "nono"
+        },
+        {
+          "text": "no no"
+        },
+        {
+          "text": "nop"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "nopis"
+        },
+        {
+          "text": "no quiero"
+        }
+      ],
+      "description": "Lista de No"
+    },
+    {
+      "intent": "permiso_circulacion",
+      "examples": [
+        {
+          "text": "como consigo el carnet para poder circular?"
+        },
+        {
+          "text": "¿Cómo consigo el permiso de circulación?"
+        },
+        {
+          "text": "como consigo el permiso para circular?"
+        },
+        {
+          "text": "como es el tramite para salir?"
+        },
+        {
+          "text": "como hago el permiso si tengo que salir?"
+        },
+        {
+          "text": "como hago para sacar el certificado"
+        },
+        {
+          "text": "¿como tramito el permiso de circulacion?"
+        },
+        {
+          "text": "cual es la pagina de internet para el permiso para salir?"
+        },
+        {
+          "text": "cual es la web para el permiso de circulación?"
+        },
+        {
+          "text": "¿donde consigo el permiso?"
+        },
+        {
+          "text": "el certificado dura toda la cuarentena?"
+        },
+        {
+          "text": "El certificado es por dia?"
+        },
+        {
+          "text": "lo puedo sacar yo sola?"
+        },
+        {
+          "text": "necesito el permiso para circular?"
+        },
+        {
+          "text": "necesito el permiso para salir"
+        },
+        {
+          "text": "pagina para tramite de circulación"
+        },
+        {
+          "text": "permiso para circular coronavirus"
+        },
+        {
+          "text": "que hago si tengo que salir?"
+        },
+        {
+          "text": "si soy medico necesito el permiso de circulación?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "positivo",
+      "examples": [
+        {
+          "text": "afirmativo"
+        },
+        {
+          "text": "ajá"
+        },
+        {
+          "text": "bueno"
+        },
+        {
+          "text": "bueno dale"
+        },
+        {
+          "text": "claro"
+        },
+        {
+          "text": "dale"
+        },
+        {
+          "text": "de acuerdo"
+        },
+        {
+          "text": "esta bien"
+        },
+        {
+          "text": "me gustaria"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "o.k."
+        },
+        {
+          "text": "okey"
+        },
+        {
+          "text": "okidoki"
+        },
+        {
+          "text": "okis"
+        },
+        {
+          "text": "quiero eso"
+        },
+        {
+          "text": "S"
+        },
+        {
+          "text": "seguro"
+        },
+        {
+          "text": "si"
+        },
+        {
+          "text": "si dale"
+        },
+        {
+          "text": "Si, dale"
+        },
+        {
+          "text": "siiii"
+        },
+        {
+          "text": "sip"
+        },
+        {
+          "text": "sipi"
+        },
+        {
+          "text": "si por favor"
+        },
+        {
+          "text": "si quiero"
+        },
+        {
+          "text": "yes"
+        }
+      ],
+      "description": "lista de si"
+    },
+    {
+      "intent": "preguntar_aislamiento",
+      "examples": [
+        {
+          "text": "a mi familia la puedo ir a visitar?"
+        },
+        {
+          "text": "como es el aislamiento?"
+        },
+        {
+          "text": "cuando termina el aislamiento"
+        },
+        {
+          "text": "Cuarentena"
+        },
+        {
+          "text": "¿me puedo juntar con amigos?"
+        },
+        {
+          "text": "me tengo que quedar adentro?"
+        },
+        {
+          "text": "¿para qué sirve el aislamiento?"
+        },
+        {
+          "text": "¿por que no puedo salir?"
+        },
+        {
+          "text": "¿por que tengo que quedarme en casa?"
+        },
+        {
+          "text": "¿Por qué tengo que reducir al mínimo el contacto con otras personas?"
+        },
+        {
+          "text": "puedo festejar mi cumpleaños?"
+        },
+        {
+          "text": "puedo hacer mi fiesta de cumpleaños?"
+        },
+        {
+          "text": "¿puedo hacer una fiesta?"
+        },
+        {
+          "text": "puedo ir a comprar?"
+        },
+        {
+          "text": "¿puedo ir a ver amigos?"
+        },
+        {
+          "text": "puedo ir a ver a mi novio?"
+        },
+        {
+          "text": "puedo salir a la plaza?"
+        },
+        {
+          "text": "puedo salir a tomar mate?"
+        },
+        {
+          "text": "puedo visitar gente?"
+        },
+        {
+          "text": "tengo que hacer la cuarentena?"
+        },
+        {
+          "text": "tengo que quedarme en casa?"
+        }
+      ],
+      "description": "información sobre el aislamiento preventivo"
+    },
+    {
+      "intent": "Preguntar_grupo_riesgo",
+      "examples": [
+        {
+          "text": "como puedo saber si soy parte del grupo de riesgo?"
+        },
+        {
+          "text": "como se conforma el grupo de riesgo?"
+        },
+        {
+          "text": "Como sé si estoy dentro del grupo de riesgo?"
+        },
+        {
+          "text": "corro mas riesgo si tengo diabetes?"
+        },
+        {
+          "text": "¿cuales son los grupos de riesgo?"
+        },
+        {
+          "text": "Estoy embarazada, ¿que hago?"
+        },
+        {
+          "text": "que enfermedades se consideran grupo de riesgo?"
+        },
+        {
+          "text": "¿que hago si estoy embarazada?"
+        },
+        {
+          "text": "quien pertenece al grupo de riesgo?"
+        },
+        {
+          "text": "qye patologias están consideradas dentro del grupo de personas de riesgo?"
+        },
+        {
+          "text": "si estoy embarazada, ¿estoy en riesgo?"
+        },
+        {
+          "text": "Soy del grupo de riesgo si tengo asma?"
+        },
+        {
+          "text": "Soy diabético ¿pertenezco al grupo de riesgo?"
+        },
+        {
+          "text": "soy mayor de 60 años ¿estoy en riesgo?"
+        },
+        {
+          "text": "tengo una patologia cronica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "preguntar_medicacion",
+      "examples": [
+        {
+          "text": "es recomendable medicarse?"
+        },
+        {
+          "text": "hay alguna vacuna para el virus?"
+        },
+        {
+          "text": "puedo tomar antigripales?"
+        },
+        {
+          "text": "¿Puedo tomar ibuprofeno?"
+        },
+        {
+          "text": "puedo tomar ibuprofeno?"
+        },
+        {
+          "text": "puedo tomar inuprofeno?"
+        },
+        {
+          "text": "puedo tomar jarabe para la tos?"
+        },
+        {
+          "text": "¿puedo tomar paracetamol?"
+        },
+        {
+          "text": "¿que medicacion me recomendas para el dolor de cabeza?"
+        },
+        {
+          "text": "que medicamentos hay para el covid-19?"
+        },
+        {
+          "text": "que medicamentos tengo que tomar?"
+        },
+        {
+          "text": "¿que puedo tomar si tengo fiebre?"
+        },
+        {
+          "text": "que tomo para el coronavirus?"
+        },
+        {
+          "text": "¿que tomo si me duele la cabeza?"
+        },
+        {
+          "text": "que tomo si me duele la garganta?"
+        },
+        {
+          "text": "que tomo si tengo fiebre?"
+        },
+        {
+          "text": "se recomienda alguna medicacion?"
+        },
+        {
+          "text": "tengo que tomar que antibioticos?"
+        }
+      ],
+      "description": "Manejar preguntas relacionadas a medicación"
+    },
+    {
+      "intent": "preguntar_prevencion",
+      "examples": [
+        {
+          "text": "como evitar propagar el virus"
+        },
+        {
+          "text": "¿Cómo evito covid-19?"
+        },
+        {
+          "text": "¿como evito el contagio?"
+        },
+        {
+          "text": "¿Cómo evito que me enferme?"
+        },
+        {
+          "text": "como hago para prevenir el virus?"
+        },
+        {
+          "text": "Como hago un barbijo casero?"
+        },
+        {
+          "text": "como lavarse las manos"
+        },
+        {
+          "text": "¿cómo me aseguro de que mi familia esté segura?"
+        },
+        {
+          "text": "¿Cómo me protejo?"
+        },
+        {
+          "text": "¿como prevengo el contagio?"
+        },
+        {
+          "text": "Cómo prevenir la propagación del virus"
+        },
+        {
+          "text": "¿como puedo cuidarme del coronavirus?"
+        },
+        {
+          "text": "¿Cómo reducimos la probabilidad de contagiarnos o de contagiar a otros?"
+        },
+        {
+          "text": "como se usa un tapabocas?"
+        },
+        {
+          "text": "¿Con qué frecuencia debo lavarme las manos?"
+        },
+        {
+          "text": "¿Cuál es el riesgo de que mi hijo se enferme con COVID-19?"
+        },
+        {
+          "text": "¿Cuál es la mejor manera de prevenir el coronavirus?"
+        },
+        {
+          "text": "cuales son las medidas de higiene en el hogar?"
+        },
+        {
+          "text": "debo usar barvijo ?"
+        },
+        {
+          "text": "es necesario usar barbijos?"
+        },
+        {
+          "text": "¿Es posible evitar el virus?"
+        },
+        {
+          "text": "medidas de higiene"
+        },
+        {
+          "text": "¿Necesito usar una máscara facial?"
+        },
+        {
+          "text": "No sé si usar barbijo o no, que hago?"
+        },
+        {
+          "text": "prevenir la propagación del virus"
+        },
+        {
+          "text": "qué debo hacer para contener la propagación del virus"
+        },
+        {
+          "text": "¿que puedo hacer para no contagiarme?"
+        },
+        {
+          "text": "Tengo que usar mascara facial?"
+        }
+      ],
+      "description": "información sobre la prevención"
+    },
+    {
+      "intent": "preguntar_sintomas",
+      "examples": [
+        {
+          "text": "como reconozco los sintomas del coronavirus?"
+        },
+        {
+          "text": "como sé si tengo coronavirus"
+        },
+        {
+          "text": "creo que me contagie el virus"
+        },
+        {
+          "text": "creo que tengo el virus"
+        },
+        {
+          "text": "cuales son indicios de coronavirus?"
+        },
+        {
+          "text": "cuales son las señales de que tengo coronavirus?"
+        },
+        {
+          "text": "¿Cuales son los sintomas del coronavirus?"
+        },
+        {
+          "text": "¿Cuáles son los síntomas más comunes del coronavirus?"
+        },
+        {
+          "text": "me contagiaron coronavirus, que hago?"
+        },
+        {
+          "text": "me decis los sintomas del covid 19?"
+        },
+        {
+          "text": "me podes decir la sintomatologia?"
+        },
+        {
+          "text": "que me indica que tengo coronavirus?"
+        },
+        {
+          "text": "que sintomas indican que tengo coronavirus?"
+        },
+        {
+          "text": "¿que sintomas son graves?"
+        },
+        {
+          "text": "tengo algunos sintómas, tengo coronavirus?"
+        }
+      ],
+      "description": "información sobre los sintomas comúnes"
+    },
+    {
+      "intent": "preguntas_cifras",
+      "examples": [
+        {
+          "text": "¿alguien murió de coronavirus en mi ciudad?"
+        },
+        {
+          "text": "¿cuál es el recuento de personas infectadas con coronavirus?"
+        },
+        {
+          "text": "¿Cuanta gente murio por covid19?"
+        },
+        {
+          "text": "¿cuanta gente tiene coronavirus en españa?"
+        },
+        {
+          "text": "¿cuántas personas están enfermas en los Estados Unidos?"
+        },
+        {
+          "text": "¿cuántas personas están infectadas en los Estados Unidos?"
+        },
+        {
+          "text": "cuantas personas tienen coronavirus aca?"
+        },
+        {
+          "text": "¿Cuántos casos de coronavirus hay en mi área?"
+        },
+        {
+          "text": "¿Cuántos casos de COVID-19 hay en los Estados Unidos?"
+        },
+        {
+          "text": "¿Cuántos casos del virus hay en el mundo?"
+        },
+        {
+          "text": "¿Cuantos enfermos de coronavirus hay en el mundo?"
+        },
+        {
+          "text": "cuantos enfermos hay en argentina?"
+        },
+        {
+          "text": "cuantos se murieron hasta ahora?"
+        },
+        {
+          "text": "¿Dónde están los casos?"
+        },
+        {
+          "text": "¿hay alguien cerca de mí enfermo?"
+        },
+        {
+          "text": "¿Hay algún caso cerca de mí?"
+        },
+        {
+          "text": "¿MA tiene un caso COVID confirmado?"
+        },
+        {
+          "text": "número de casos de covid en mi estado?"
+        },
+        {
+          "text": "¿Tiene EE. UU. un caso COVID confirmado?"
+        }
+      ],
+      "description": "Todo lo que sea preguntas sobre cantidad de enfermos y fallecidos; apuntando a MSalud y OMS"
+    },
+    {
+      "intent": "Restricciones_de_Viaje_COVID",
+      "examples": [
+        {
+          "text": "Acabo de viajar. ¿Qué hago?"
+        },
+        {
+          "text": "Cómo hago para viajar?"
+        },
+        {
+          "text": "¿Debo cancelar mi vuelo a Denver?"
+        },
+        {
+          "text": "¿Es seguro volar a Seattle?"
+        },
+        {
+          "text": "¿Hay restricciones de viaje vigentes todavía?"
+        },
+        {
+          "text": "Me quiero ir de vacaciones"
+        },
+        {
+          "text": "necesito quedarme en casa"
+        },
+        {
+          "text": "¿Necesito una nota del médico para viajar?"
+        },
+        {
+          "text": "Puedo hacer un viaje dentro del país?"
+        },
+        {
+          "text": "Puedo ir a un país limitrofe?"
+        },
+        {
+          "text": "Puedo salir del país?"
+        },
+        {
+          "text": "¿Puedo viajar?"
+        },
+        {
+          "text": "¿Qué sucede si necesito tomar un vuelo con urgencia?"
+        },
+        {
+          "text": "Se puede viajar al exterior?"
+        },
+        {
+          "text": "Tengo que salir del país, cómo hago?"
+        },
+        {
+          "text": "tengo un crucero, tampoco puedo ir?"
+        },
+        {
+          "text": "Tengo un viaje programado, que hago?"
+        },
+        {
+          "text": "Volví de viaje. Que tengo que hacer?"
+        }
+      ],
+      "description": "Información sobre viajes durante la pandemia de Covid 19."
+    },
+    {
+      "intent": "Resultados_Prueba_COVID",
+      "examples": [
+        {
+          "text": "Cómo hago para que me den los resultados?"
+        },
+        {
+          "text": "Como me dan los resultados?"
+        },
+        {
+          "text": "Cómo me llegan los resultados del test?"
+        },
+        {
+          "text": "Como obtengo los resultados de la prueba?"
+        },
+        {
+          "text": "¿Cómo puedo obtener los resultados de mi prueba?"
+        },
+        {
+          "text": "Cuando me dan los resultados del test?"
+        },
+        {
+          "text": "¿Cuándo puedo obtener mis resultados?"
+        },
+        {
+          "text": "Ha pasado una semana. ¿A quién puedo llamar para obtener los resultados de mi examen?"
+        },
+        {
+          "text": "¿Los resultados de mi prueba llegan por correo?"
+        },
+        {
+          "text": "Mi médico aún no me ha devuelto los resultados de mi prueba"
+        },
+        {
+          "text": "Necesito los resultados del test"
+        },
+        {
+          "text": "Por dónde me llegan los resultados?"
+        },
+        {
+          "text": "¿Quién me dará los resultados de mi prueba del COVID?"
+        },
+        {
+          "text": "resultados de la prueba?"
+        },
+        {
+          "text": "Todavía no tengo los resultados del test"
+        },
+        {
+          "text": "Todavía no tengo mis resultados, que hago?"
+        }
+      ],
+      "description": "Cómo obtener los resultados de la prueba Covid 19."
+    },
+    {
+      "intent": "tengo_sintomas",
+      "examples": [
+        {
+          "text": "dolor de pecho"
+        },
+        {
+          "text": "estoy estornudando todo el tiempo"
+        },
+        {
+          "text": "estoy tosiendo mucho"
+        },
+        {
+          "text": "Falta el aire"
+        },
+        {
+          "text": "me cuesta respirar"
+        },
+        {
+          "text": "me cuesta respirar bien"
+        },
+        {
+          "text": "me duele el cuerpo"
+        },
+        {
+          "text": "me duele el oído"
+        },
+        {
+          "text": "me duele la cabeza"
+        },
+        {
+          "text": "me duelen las piernas"
+        },
+        {
+          "text": "me duele todo"
+        },
+        {
+          "text": "me falta el aire"
+        },
+        {
+          "text": "me quedo sin aire"
+        },
+        {
+          "text": "me quedo sin aliento"
+        },
+        {
+          "text": "me siento engripado"
+        },
+        {
+          "text": "me siento mal"
+        },
+        {
+          "text": "no se me pasa el dolor de cabeza"
+        },
+        {
+          "text": "no se me pasa la tos"
+        },
+        {
+          "text": "tengo fiebre"
+        },
+        {
+          "text": "tengo gripe"
+        },
+        {
+          "text": "tengo mocos"
+        },
+        {
+          "text": "tengo mucha tos"
+        },
+        {
+          "text": "tengo mucho cansancio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ubicaciones_Prueba_COVID",
+      "examples": [
+        {
+          "text": "a quien llamo si me siento mal?"
+        },
+        {
+          "text": "como me hago el test?"
+        },
+        {
+          "text": "¿Cómo me hago la prueba?"
+        },
+        {
+          "text": "¿Dónde encuentro la prueba de coronavirus?"
+        },
+        {
+          "text": "donde me hago el test de coronavirus?"
+        },
+        {
+          "text": "Donde me puedo hacer la prueba?"
+        },
+        {
+          "text": "¿Dónde puedo hacerme la prueba?"
+        },
+        {
+          "text": "Le puedo pedir a mi medico que me haga el test?"
+        },
+        {
+          "text": "Me puedo hacer la prueba yo mismo?"
+        },
+        {
+          "text": "¿Puedo hacerme la prueba de coronavirus con mis médicos?"
+        },
+        {
+          "text": "¿Puedo hacerme la prueba en Walgreens?"
+        },
+        {
+          "text": "¿Puedo pruebarme en mi casa?"
+        },
+        {
+          "text": "quien me hace el test de coronavirus?"
+        },
+        {
+          "text": "Quiero hacerme la prueba"
+        },
+        {
+          "text": "Quiero que me hagan el test"
+        },
+        {
+          "text": "¿ubicaciones de prueba?"
+        }
+      ],
+      "description": "Dónde hacerse la prueba para Covid 19."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "otra_info",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "autismo",
+          "synonyms": [
+            "asperger",
+            "autista",
+            "CEA",
+            "espectro autista",
+            "TEA",
+            "TGD",
+            "trastorno generalizado del desarrollo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dengue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "discapacidad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hipoacusia",
+          "synonyms": [
+            "hipoacusica",
+            "hipoacustico",
+            "hipoacústico",
+            "sorda",
+            "sordo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "violencia de género",
+          "synonyms": [
+            "maltratador",
+            "maltrato",
+            "violencia",
+            "violento"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "paises_riesgo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "brasil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chile",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "china",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "corea del sur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "estados unidos",
+          "synonyms": [
+            "eeuu",
+            "e.e.u.u",
+            "usa",
+            "u.s.a"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "europa",
+          "synonyms": [
+            "Albania",
+            "Alemania",
+            "Andorra",
+            "Armenia",
+            "Austria",
+            "Azerbaiyán",
+            "Belgica",
+            "Bielorrusia",
+            "Bosnia",
+            "Bulgaria",
+            "Chipre",
+            "Croacia",
+            "Dinamarca",
+            "Escocia",
+            "Eslovaquia",
+            "Eslovenia",
+            "España",
+            "Estonia",
+            "Finlandia",
+            "Francia",
+            "Gales",
+            "Georgia",
+            "Grecia",
+            "Herzegovina",
+            "Holanda",
+            "Hungría",
+            "Inglaterra",
+            "Irlanda",
+            "Islandia",
+            "Italia",
+            "Kazajistán",
+            "Letonia",
+            "Liechtenstein",
+            "Lituania",
+            "Luxemburgo",
+            "Macedonia",
+            "Malta",
+            "Moldova",
+            "Mónaco",
+            "Montenegro",
+            "Noruega",
+            "Países Bajos",
+            "Polonia",
+            "Portugal",
+            "Reino Unido",
+            "República Checa",
+            "Rumania",
+            "Rusia",
+            "San Marino",
+            "Serbia",
+            "Suecia",
+            "Suiza",
+            "Ucrania",
+            "Vaticano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "iran",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "japon",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "prevencion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "barbijo",
+          "synonyms": [
+            "barbijo quirurgico",
+            "barrera protectora",
+            "mascara de proteccion",
+            "mascara facial",
+            "mascara protectora",
+            "n95",
+            "tapaboca",
+            "tapa bocas",
+            "taparme la boca",
+            "taparme la cara",
+            "taparse la boca",
+            "taparse la cara"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "distanciamiento social",
+          "synonyms": [
+            "acercarme",
+            "acercarse",
+            "juntarme",
+            "juntarse",
+            "visitar amigos",
+            "visitar familia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lavado de manos",
+          "synonyms": [
+            "enjabonar las manos",
+            "lavar las manos",
+            "lavarme las manos",
+            "lavo las manos",
+            "limpiar las manos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "provincias",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Buenos Aires",
+          "synonyms": [
+            "baires",
+            "bsas",
+            "bs as",
+            "bs. as."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "capital federal",
+          "synonyms": [
+            "caba",
+            "capital",
+            "ciudad autonoma de buenos aires",
+            "ciudad de buenos aires"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "catamarca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chaco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chubut",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cordoba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "corrientes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "entre rios",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "formosa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jujuy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "la pampa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "la rioja",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mendoza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "misiones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "neuquen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rio negro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "san juan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "san luis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "santa cruz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "santa fe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "santiago del estero",
+          "synonyms": [
+            "santiago"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tierra del Fuego",
+          "synonyms": [
+            "Antártida",
+            "Islas del Atlántico Sur",
+            "Islas Malvinas",
+            "Malvinas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tucuman",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sintomas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dificultad para respirar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dolor de garganta",
+          "synonyms": [
+            "garganta",
+            "garganta adolorida",
+            "garganta inflamada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fiebre",
+          "synonyms": [
+            "afiebrado",
+            "temperatura"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flema",
+          "synonyms": [
+            "moco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tos seca",
+          "synonyms": [
+            "tos continua",
+            "tos fuerte",
+            "tos sin parar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bienvenido. Soy un asistente virtual 🧑‍⚕️preparado para ayudarte con tus dudas respecto al COVID-19 🦠, popularmente conocido como coronavirus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Podés describirme tus síntomas o preguntarme sobre el aislamiento, medidas de higiene, entre otras cosas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #General_Greetings",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpame 😔 pero no he entendido tu consulta. ¿Podrías reformularla?"
+              },
+              {
+                "text": "¿Puede expresarte con otras palabras? 🙏 No he entendido."
+              },
+              {
+                "text": "No entendí tu consulta. ¿Podrías decirlo de otra manera?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_8_1584480658687",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "preguntas_sintomas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los síntomas del coronavirus son parecidos a los de la gripe. Por eso es muy importante que consultes al médico si presentas cualquiera de estos síntomas:\n⚠️ Fiebre, 38 grados o más.\n⚠️ Tos seca y continua.\n⚠️ Dificultad para respirar\n⚠️ Dolor de garganta.\n\nSi tenés muchas flemas además de la fiebre, es un síntoma de coronavirus. En cambio, no es síntoma tener mocos únicamente.\n\n<strong>Ante cualquiera de estos síntomas, consultá urgente a tu médico.</strong>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#preguntar_sintomas",
+      "dialog_node": "node_10_1584479736316",
+      "previous_sibling": "node_1_1588008421739"
+    },
+    {
+      "type": "standard",
+      "title": "anything_else",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1584633335043",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "En otras cosas"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1584633550770",
+      "previous_sibling": "node_8_1584633509010"
+    },
+    {
+      "type": "standard",
+      "title": "Restricciones_de_Viaje_COVID",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si estás en el país, debés cumplir el aislamiento social, preventivo y obligatorio que rige para todas las personas que se encuentren en el país."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ante la situación mundial, en relación a COVID-19, que implica la posibilidad de ingreso a nuestro país de personas infectadas, se generaron las recomendaciones necesarias para la detección temprana y control de pacientes con posibilidad de presentar una enfermedad respiratoria aguda al ingreso a nuestro país. Para obtener más información sobre aeropuertos, puertos y pasos fronterizos <a href=\"https://www.argentina.gob.ar/coronavirus/aeropuertos-puertos-pasos-fronterizos\">hacé click acá</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#Restricciones_de_Viaje_COVID",
+      "dialog_node": "node_10_1585929456080",
+      "previous_sibling": "node_8_1585929064997"
+    },
+    {
+      "type": "standard",
+      "title": "preguntas_aislamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La finalidad del aislamiento es que haya menos probabilidades de que circule el coronavirus y que contagie a otras personas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Con el fin de proteger la salud pública, todas las personas que habitan en el país o se encuentren en él en forma temporaria deberán permanecer en sus domicilios habituales o en donde se encontraban a las 00:00 horas del día 20 de marzo de 2020.\n\nDeberán abstenerse de concurrir a sus lugares de trabajo y no podrán circular por rutas, vías y espacios públicos.\n\nSolo podrán realizar desplazamientos mínimos e indispensables para aprovisionarse de artículos de limpieza, medicamentos y alimentos.\n\nAl <strong>evitar actividades sociales</strong> (no salir de paseo, no ir a lugares públicos), bajan las probabilidades de transmisión y <strong>ayudamos en especial a las personas que presentan más riesgos</strong> si se contagian."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#preguntar_aislamiento",
+      "dialog_node": "node_1_1584478566593",
+      "previous_sibling": "node_5_1584479207036"
+    },
+    {
+      "type": "standard",
+      "title": "definicion_covid19",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los coronavirus son una extensa familia de virus 🦠 que pueden causar enfermedades tanto en animales como en humanos. En los humanos, se sabe que varios coronavirus causan infecciones respiratorias que pueden ir desde el resfriado común hasta enfermedades más graves como el síndrome respiratorio de Oriente Medio (MERS) y el síndrome respiratorio agudo severo (SRAS). "
+              },
+              {
+                "text": "La <strong>COVID-19</strong> es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto el nuevo virus como la enfermedad eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#definicion",
+      "dialog_node": "node_1_1584482033613",
+      "previous_sibling": "node_9_1584633335043"
+    },
+    {
+      "type": "standard",
+      "title": "sin_interes_telefono",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bueno, no hay problema."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584479736316",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#negativo",
+      "dialog_node": "node_1_1584539288552",
+      "previous_sibling": "node_6_1584565624762"
+    },
+    {
+      "type": "standard",
+      "title": "tengo_sintomas_mas_viaje",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dejame hacerte algunas preguntas para poder asesorate mejor:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tengo_sintomas && @sintomas && @paises_riesgo",
+      "dialog_node": "node_1_1585933094029",
+      "previous_sibling": "node_10_1584479736316"
+    },
+    {
+      "type": "standard",
+      "title": "grupo_riesgo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En el caso de grupos de riesgo, te recomiendo reforzar las recomendaciones de prevención de infecciones respiratorias:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "✔️ Distanciamiento social (mantener un metro de distancia entre personas)\n✔️ Lavarse las manos frecuentemente con agua y jabón o alcohol en gel.\n✔️ Toser o estornudar sobre el pliegue del codo o utilizar pañuelos descartables.\n✔️ No llevarse las manos a la cara.\n✔️ Ventilar bien los ambientes de la casa y del lugar de trabajo.\n✔️ Desinfectar bien los objetos que se usan con frecuencia.\n✔️ No automedicarse."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Además, en la medida de lo posible, delegá la realización de compras a personas de confianza que no pertenezcan a los grupos de riesgo.<br>\nLas personas que estén dentro de los grupos de riesgo no deben convivir con personas que vengan desde el exterior.<br>\nTambién quienes tengan más de 65 años y más deben vacunarse contra la gripe y el neumococo de acuerdo al calendario de vacunación nacional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Podés conseguir más información en <a href=\"https://www.argentina.gob.ar/salud/coronavirus/poblacion/mayores\">este link </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#Preguntar_grupo_riesgo",
+      "dialog_node": "node_1_1585934703065",
+      "previous_sibling": "node_4_1585929954301"
+    },
+    {
+      "type": "standard",
+      "title": "info_dengue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El dengue es una enfermedad viral transmitida por la picadura del mosquito Aedes aegypti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Los síntomas son:\n⚠️  Fiebre acompañada de dolor detrás de los ojos, de cabeza, muscular y de articulaciones\n⚠️  Nauseas y vómitos\n⚠️  Cansancio intenso\n⚠️  Aparición de manchas en la piel\n⚠️  Picazón y/o sangrado de nariz y encías"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Es importante que ante síntomas de dengue, <strong>no tomes aspirinas, ibuprofeno ni te apliques inyecciones intramusculares</strong>. Lo más conveniente es que consultes al médico para que él te indique la medicación adecuada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para saber más sobre dengue, hacé click en este <a href=\"https://www.argentina.gob.ar/salud/glosario/dengue\">link</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588008421739",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "@otra_info:dengue",
+      "dialog_node": "node_1_1588007362022"
+    },
+    {
+      "type": "folder",
+      "title": "otra_info",
+      "conditions": "@otra_info",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1588008421739",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "caso_sospechoso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo a los síntomas que describís, podría existir la sospecha de infección por coronavirus.\n \nNo es razón para alarmarse, pero deberías contactar a un equipo especializado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Si me indicas desde qué provincia te comunicás, puedo indicarte a qué teléfono  ☎️ deberás llamar en caso de tener síntomas. ¿Te interesa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1599021503434",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1584565252363"
+      },
+      "conditions": "#positivo",
+      "dialog_node": "node_1_1599022077370",
+      "previous_sibling": "node_4_1599022016790"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No entendí lo que me dijiste. Por favor, contesta la pregunta o escribí <em>\"Cancelar\"</em> para volver al menú principal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1599021503434",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1599021503434"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1599022207491",
+      "previous_sibling": "node_7_1599022167095"
+    },
+    {
+      "type": "standard",
+      "title": "despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fue un placer hablar con vos. ¡Hasta luego!"
+              },
+              {
+                "text": "Espero haber resuelto tus dudas, hasta luego."
+              },
+              {
+                "text": "Espero haberte sido útil. Adiós"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1584480658687",
+      "conditions": "#negativo",
+      "dialog_node": "node_2_1584541093735"
+    },
+    {
+      "type": "standard",
+      "title": "anything_else",
+      "parent": "node_10_1584479736316",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1584631957990",
+      "previous_sibling": "node_1_1584539288552"
+    },
+    {
+      "type": "standard",
+      "title": "info_hipoacusia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Agencia Nacional de Discapacidad ofrece un servicio exclusivo de videollamada para personas con discapacidad auditiva. Podés comunicarte al número 11-5728-4011, disponible de lunes a viernes de 10 a 15 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588008421739",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "@otra_info:hipoacusia",
+      "dialog_node": "node_3_1588009158196",
+      "previous_sibling": "node_8_1588008503474"
+    },
+    {
+      "type": "standard",
+      "title": "preguntar_por_asistencia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si me indicas desde qué provincia te comunicás, puedo indicarte a qué teléfono  ☎️ deberás llamar. ¿Te interesa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584479736316",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1584565252363"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1585921752833"
+    },
+    {
+      "type": "standard",
+      "title": "limpieza",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para cuidarnos entre todos, seguí las siguientes recomendaciones:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "✔️ Ventilá adecuadamente los ambientes.\n✔️ No compartas mate, vajilla ni demás objetos de uso personal.\n✔️ Limpialos con agua y detergente después de cada uso.\n✔️ Limpiá y desinfectá superficies y objetos de uso frecuente (mesas, mesadas, sillas y otros utilizados diariamente) de la siguiente manera:\n    👉 Lavá con una solución de agua y detergente.\n    👉 Enjuagá con agua limpia.\n    👉 Desinfectá con una solución de 10 ml (2 cucharadas soperas) de lavandina de uso comercial en 1 litros de agua"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#Limpieza_Desinfección_COVID",
+      "dialog_node": "node_4_1585929954301",
+      "previous_sibling": "node_10_1585929456080",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "info_autismo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se han establecido ciertas excepciones respecto a salidas y asistencia en domicilio para personas con condiciones del Especto Autista (CEA)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Para acceder a las recomendaciones repecto de esta resolución, accedé al siguiente <a href=\"https://www.argentina.gob.ar/noticias/permiso-de-salida-y-asistencia-personas-con-discapacidad\"> artículo</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588008421739",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "@otra_info:autismo",
+      "dialog_node": "node_4_1588014453019",
+      "previous_sibling": "node_3_1588009158196"
+    },
+    {
+      "type": "standard",
+      "title": "negativo_fiebre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bueno, por ahora no hay sospecha de infección, pero es importante que cumplas con el <strong>aislamiento obligatorio durante 15 días</strong>, ya que podés estar incubando el virus. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1599021503434",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1584479207036"
+      },
+      "conditions": "#negativo",
+      "dialog_node": "node_4_1599022016790"
+    },
+    {
+      "type": "standard",
+      "title": "medidas_de_prevencion",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#preguntar_prevencion",
+      "dialog_node": "node_5_1584479207036",
+      "previous_sibling": "node_1_1584482033613"
+    },
+    {
+      "type": "standard",
+      "title": "rumores",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hay mucha información en circulación, y no toda es cientificamente exacta. Te recomiendo leer estos <a href=\"https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters\">consejos para la población acerca de los rumores</a> que da la Organización Mundial de la Salud."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#aclarar_rumores",
+      "dialog_node": "node_5_1584539983606",
+      "previous_sibling": "node_6_1584481455484"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1584633335043",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1584479736316"
+      },
+      "conditions": "#positivo",
+      "dialog_node": "node_5_1584633467699"
+    },
+    {
+      "type": "standard",
+      "title": "fuentes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todos mis conocimientos provienen de 👇<br>  <a href=\"https://www.argentina.gob.ar/salud/coronavirus-COVID-19\">Ministerio de Salud de la República Argentina</a> <br><a href=\"https://www.who.int/es/health-topics/coronavirus/coronavirus\">Organización Mundial de la Salud</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#fuentes_informacion",
+      "dialog_node": "node_6_1584481455484",
+      "previous_sibling": "node_8_1585920523890"
+    },
+    {
+      "type": "standard",
+      "title": "pedir_provincia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, indicame en qué provincia estás."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584479736316",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1584565252363"
+      },
+      "conditions": "#positivo",
+      "dialog_node": "node_6_1584565624762",
+      "previous_sibling": "node_9_1584565252363"
+    },
+    {
+      "type": "standard",
+      "title": "pregunta_fiebre",
+      "parent": "node_9_1584630235937",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#positivo",
+      "dialog_node": "node_6_1599021503434"
+    },
+    {
+      "type": "standard",
+      "title": "excepciones_aislamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Solo están exceptuadas de la prohibición de circular las personas involucradas en las actividades y servicios declarados esenciales en la emergencia, y sus desplazamientos deberán limitarse al estricto cumplimiento de esas actividades y servicios."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Para acceder al listado completo de excepciones, <a href=\"https://www.argentina.gob.ar/coronavirus/aislamiento/exceptuados\">hacé click acá</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#excepciones_aislamiento",
+      "dialog_node": "node_7_1585925535411",
+      "previous_sibling": "node_8_1584480554747"
+    },
+    {
+      "type": "standard",
+      "title": "permiso_circulación",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El certificado único habilitante tiene validez nacional para circular en la vía pública en caso de que estés entre los exceptuados del aislamiento social, preventivo y obligatorio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Las instrucciones para solicitarlo están disponibles en el siguiente <a href=\"https://www.argentina.gob.ar/circular\">link</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#permiso_circulacion",
+      "dialog_node": "node_7_1586208284273",
+      "previous_sibling": "node_5_1584539983606"
+    },
+    {
+      "type": "standard",
+      "title": "telefonos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En caso de sospecha de infección por COVID-19, tenés que comunicarte telefónicamente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1585921752833"
+      },
+      "conditions": "#Ubicaciones_Prueba_COVID",
+      "dialog_node": "node_7_1586279857912",
+      "previous_sibling": "node_1_1585934703065"
+    },
+    {
+      "type": "standard",
+      "title": "anything_else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, necesito que contestes la pregunta para asesorarte correctamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1584630235937",
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1599021587022",
+      "previous_sibling": "node_6_1599021503434"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1599021503434",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "En otras cosas"
+      },
+      "conditions": "#cancelar",
+      "dialog_node": "node_7_1599022167095",
+      "previous_sibling": "node_1_1599022077370"
+    },
+    {
+      "type": "standard",
+      "title": "denuncia_aislamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para denunciar el incumplimiento del aislamiento obligatorio, llamá al ☎️ 134 desde cualquier lugar del país. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#denuncia_aislamiento && NOT @otra_info",
+      "dialog_node": "node_8_1584480554747",
+      "previous_sibling": "node_1_1584478566593"
+    },
+    {
+      "type": "standard",
+      "title": "algo_más",
+      "output": {
+        "generic": [
+          {
+            "time": 500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Tenés alguna otra consulta?"
+              },
+              {
+                "text": "¿Puedo ayudarte con algo más?"
+              },
+              {
+                "text": "¿Tenés otra pregunta para mi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "false",
+      "dialog_node": "node_8_1584480658687",
+      "previous_sibling": "node_9_1584650136334"
+    },
+    {
+      "type": "standard",
+      "title": "security",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este asistente fue creado por IBM Argentina con el único propósito de brindar información sobre el COVID-19."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Nuestra conversación se almacenará por 30 días con el único propósito de entrenarme para poder interactuar mejor con otras personas. Después de ese período de tiempo, será eliminada permanentemente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#General_Security_Assurance",
+      "dialog_node": "node_8_1584539809264",
+      "previous_sibling": "node_9_1584539605991"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bueno, en otra oportunidad."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1584633335043",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#negativo",
+      "dialog_node": "node_8_1584633509010",
+      "previous_sibling": "node_5_1584633467699"
+    },
+    {
+      "type": "standard",
+      "title": "situation_reports",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saberlo, te recomiendo acudir siempre a fuentes de información de confianza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "El Ministerio de Salud publica un reporte de situación a nivel nacional. <a href=\"https://www.argentina.gob.ar/coronavirus/informe-diario\"> Hacé click acá </a> para verlo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "La OMS también publica el reporte pero a nivel mundial. Para visitar su página, <a href=\"https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports\">hacé click acá </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#preguntas_cifras",
+      "dialog_node": "node_8_1585920523890",
+      "previous_sibling": "node_7_1586279857912"
+    },
+    {
+      "type": "standard",
+      "title": "Cierre_Escuelas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las disposiciones para escuelas son:\nSe reemplazarán los comedores por entregas de viandas.\nSe trabajará en actividades de educación a distancia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para estar al tanto de las últimas disposiciones relacionadas a escuelas, <a href=\"https://www.argentina.gob.ar/salud/coronavirus/poblacion/escuelas\">hacé click acá</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#Cierres_Escuelas_COVID",
+      "dialog_node": "node_8_1585929064997",
+      "previous_sibling": "node_7_1585925535411"
+    },
+    {
+      "type": "standard",
+      "title": "preguntas_medicacion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta la fecha, no hay ninguna vacuna ni medicamento antiviral específico para prevenir o tratar la infección por COVID-19. Antes de consumir cualquier medicamento, por favor, consultá a tu médico de confianza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#preguntar_medicacion",
+      "dialog_node": "node_8_1586280403160",
+      "previous_sibling": "node_7_1586208284273"
+    },
+    {
+      "type": "standard",
+      "title": "info_violencia_de_genero",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si necesitás asistencia por violencia de género, llamá a la línea gratuita 144 del Ministerio de Mujeres, Géneros y Diversidad."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588008421739",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "@otra_info:(violencia de género)",
+      "dialog_node": "node_8_1588008503474",
+      "previous_sibling": "node_1_1588007362022"
+    },
+    {
+      "type": "standard",
+      "title": "chistes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento no poder ayudarte con esto; dado que mi principal objetivo es brindarte información sobre el COVID-19."
+              },
+              {
+                "text": "La salud mental también es importante en tiempos de cuarentena, pero mi principal objetivo es brindarte información sobre el COVID-19. Te recomiendo utilizar tu buscador de preferencia para encontrar entretenimiento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_9_1584539605991",
+      "previous_sibling": "node_8_1586280403160"
+    },
+    {
+      "type": "standard",
+      "title": "telefono_asistencia",
+      "parent": "node_10_1584479736316",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584480658687"
+      },
+      "conditions": "@provincias",
+      "dialog_node": "node_9_1584565252363",
+      "previous_sibling": "node_4_1585921752833"
+    },
+    {
+      "type": "standard",
+      "title": "tengo_sintomas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dado que los síntomas del COVID-19 son similares a los de la gripe, voy a hacerte algunas preguntas para evaluar tu caso y determinar si hace falta contactar al servicio de salud."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 500,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "context": {
+        "sintomas": "@sintomas"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1599021503434"
+      },
+      "conditions": "#tengo_sintomas && @sintomas",
+      "dialog_node": "node_9_1584630235937",
+      "previous_sibling": "node_1_1585933094029"
+    },
+    {
+      "type": "standard",
+      "title": "sintomas_no_covid",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo que me describís no es uno de los síntomas conocidos del COVID-19.\nTe recomiendo que contactes a tu centro de salud habitual para que puedan asesorarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te gustaría que te cuente cuáles son los síntomas del COVID-19?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tengo_sintomas && NOT @sintomas",
+      "dialog_node": "node_9_1584633335043",
+      "previous_sibling": "node_9_1584630235937"
+    },
+    {
+      "type": "standard",
+      "title": "capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estoy capacitado para proveer información general respecto al COVID-19 y dar recomendaciones para la población de la República Argentina. ¿Querés preguntarme algo específico sobre COVID-19?"
+              },
+              {
+                "text": "Podés preguntarme sobre los síntomas, aislamiento, medidas de prevención del COVID-19. ¿Querés preguntarme algo específico sobre COVID-19?"
+              },
+              {
+                "text": "Probá preguntarme <em>¿Qué es el coronavirus?</em>"
+              },
+              {
+                "text": "Probá preguntarme <em>¿Cuáles son los sintomas del coronavirus?</em>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_9_1584638199890",
+      "previous_sibling": "node_8_1584539809264"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero haberte sido útil. Hasta luego."
+              },
+              {
+                "text": "Ojalá te haya sido de ayuda. Adiós."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_9_1584650136334",
+      "previous_sibling": "node_9_1584638199890"
+    },
+    {
+      "type": "standard",
+      "title": "positivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿En que más puedo ayudarte?"
+              },
+              {
+                "text": "¿Cuál es tu consulta?"
+              },
+              {
+                "text": "¿Qué otra pregunta tenés para mi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1584480658687",
+      "conditions": "#positivo",
+      "dialog_node": "node_9_1586207415016",
+      "previous_sibling": "node_2_1584541093735"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en la provincia de Buenos Aires, llamá al 148."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(Buenos Aires)",
+      "dialog_node": "response_10_1584565921207"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me dijiste que tenés fiebre, ¿tenés 38º o más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1599021503434",
+      "conditions": "@sintomas:fiebre",
+      "dialog_node": "response_10_1599021537946",
+      "previous_sibling": "node_1_1599022207491"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en Corrientes, podés llamar al <strong>0379 4974811 </strong>(fijo) o al  <strong>379 4895124 (celular)</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:corrientes",
+      "dialog_node": "response_1_1584566274886",
+      "previous_sibling": "response_7_1584565458890"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Jujuy, llama al <strong>0800 888 4767</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:jujuy",
+      "dialog_node": "response_1_1584566435666",
+      "previous_sibling": "response_3_1584566353465"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en Neuquén, llamá al <strong>0800 333 1002</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:neuquen",
+      "dialog_node": "response_1_1584566863734",
+      "previous_sibling": "response_4_1584566718249"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Santa Cruz, podés comunicarte al <strong>107</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(santa cruz)",
+      "dialog_node": "response_1_1584567303830",
+      "previous_sibling": "response_2_1584567185081"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "En Santiago del Estero, comunicate a cualquiera de los siguientes números: \n<strong>107</strong>\n<strong>385 4213006</strong>\n<strong>385 5237077</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(santiago del estero)",
+      "dialog_node": "response_1_1584568866315",
+      "previous_sibling": "response_5_1584567383302"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Tierra del Fuego, Antártida e Islas del Atlántico Sur podés comunicarte al <strong>107</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(Tierra del Fuego)",
+      "dialog_node": "response_1_1584569067589",
+      "previous_sibling": "response_1_1584568866315"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "En San Luis podés llamar al <strong>107</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(san luis)",
+      "dialog_node": "response_2_1584566986082",
+      "previous_sibling": "response_9_1584566958932"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde San Juan, podés llamar al <strong>107</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(san juan)",
+      "dialog_node": "response_2_1584567185081",
+      "previous_sibling": "response_2_1584566986082"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Chubut, llamá sin cargo al <strong>0800 222 2676</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:chubut",
+      "dialog_node": "response_3_1584566161844",
+      "previous_sibling": "response_4_1584566080812"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "En Formosa, comunicate al <strong>107</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:formosa",
+      "dialog_node": "response_3_1584566353465",
+      "previous_sibling": "response_8_1584565841787"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es importante higienizarse las manos frecuentemente sobre todo:\n✔️Antes y después de manipular basura o desperdicios.\n✔️Antes y después de comer, manipular alimentos y/o amamantar.\n✔️Luego de haber tocado superficies de uso público: mostradores, pasamanos, picaportes, barandas, etc.\n✔️Después de manipular dinero, llaves, animales, etc.\n✔️Después de ir al baño o de cambiar pañales.\n\n<strong>El lavado de manos con agua y jabón debe realizarse siguiendo los pasos indicados en la ilustración para reducir eficazmente el desarrollo de microorganismos, al menos durante 40-60 segundos.</strong>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "source": "https://www.argentina.gob.ar/sites/default/files/13032020-lavado_manos-1.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1584479207036",
+      "conditions": "@prevencion:(lavado de manos)",
+      "dialog_node": "response_3_1585858100440"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se recomienda el uso de barbijos caseros en quienes concurran a lugares públicos donde otras medidas de distanciamiento social sean difíciles de mantener como supermercados, farmacias, bancos, transporte público, etc.\n\nEn ciertas localidades, el uso de tapabocas es <strong>obligatorio</strong> en lugares públicos. Te recomiendo verificar con tu centro de información local para confirmar si existe una regulación en tu localidad."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Si tenés COVID-19 (o si se sospecha que podés tenerlo) o atendés a personas infectadas, tenés que usar barbijo quirúrgico y cumplir con todas las normas de aislamiento sanitario para reducir el riesgo de transmitirle el virus a otras personas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Para más información e instrucciones sobre como confeccionar tu barbijo casero, hacé click <a href=\"https://www.argentina.gob.ar/coronavirus/barbijo\">acá</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584479207036",
+      "conditions": "@prevencion:barbijo",
+      "dialog_node": "response_3_1585919465043",
+      "previous_sibling": "response_3_1585858100440"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en Chaco, comunicate sin cargo al <strong>0800 444 0829</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:chaco",
+      "dialog_node": "response_4_1584566080812",
+      "previous_sibling": "response_6_1584565922899"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde La Rioja podés llamar al <strong>107</strong> o al <strong>911</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(la rioja)",
+      "dialog_node": "response_4_1584566611609",
+      "previous_sibling": "response_8_1584566502707"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Misiones, comunicate al <strong>0800 444 3400</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:misiones",
+      "dialog_node": "response_4_1584566718249",
+      "previous_sibling": "response_8_1584566656663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en Santa Fé, llama al <strong>0800 555 6549</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(santa fe)",
+      "dialog_node": "response_5_1584567383302",
+      "previous_sibling": "response_1_1584567303830"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "En Catamarca, comunicate al <strong>383 154238872</strong> "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:catamarca",
+      "dialog_node": "response_6_1584565922899",
+      "previous_sibling": "response_10_1584565921207"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Río Negro, podés llamar al <strong>911</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(rio negro)",
+      "dialog_node": "response_6_1584566898895",
+      "previous_sibling": "response_1_1584566863734"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es importante que cumplas el aislamiento social, preventivo y obligatorio dictado por el Gobierno nacional. Además, te recomiendo seguir las siguientes recomendaciones:<br>✔️ Lavate frecuentemente las manos con agua y jabón durante 1 minuto. Esta es la medida más eficaz.<br>✔️ Aplicate alcohol en gel en las manos. <br>✔️ Si tosés o estornudás, hacelo sobre el pliegue de tu codo o utilizá pañuelos descartables.<br>✔️ Mantené bien ventilados los ambientes.<br>✔️ Limpiá los objetos y superficies que tocás con frecuencia (escritorios, teclados de computadora, celular).<br>✔️ Evitá tocarte el rostro (boca, nariz y ojos).<br>✔️ Mantené al menos 1 metro de distancia con las demás personas, especialmente si tosen, estornudan o tienen fiebre.<br>✔️ No te automediques.<strong><br>✔️ Para salir, utilizá siempre barbijo.</strong>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584479207036",
+      "dialog_node": "response_6_1585858085823",
+      "previous_sibling": "response_3_1585919465043"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "En Córdoba, llamá al <strong>0800 122 1444</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:cordoba",
+      "dialog_node": "response_7_1584565458890",
+      "previous_sibling": "response_9_1584565351827"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Tucumán, podés comunicarte a estos teléfonos: \n<strong>0800 555 8478</strong> \n<strong>0381 4302228<strong> (de lunes a viernes, 7 a 17 horas)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:tucuman",
+      "dialog_node": "response_7_1584569108142",
+      "previous_sibling": "response_1_1584569067589"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tenés fiebre (38º o más)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1599021503434",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1599021562142",
+      "previous_sibling": "response_10_1599021537946"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desde Entre Ríos, comunicate al <strong>107</strong> "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(entre rios)",
+      "dialog_node": "response_8_1584565841787",
+      "previous_sibling": "response_1_1584566274886"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en La Pampa, podés comunicarte a cualquiera de los siguientes números: \n0800 333 1135\n<strong>2954 604986 </strong>(celular)\n<strong>2954 619130 </strong>(celular)\n<strong>2302 531304 </strong>(celular)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(la pampa)",
+      "dialog_node": "response_8_1584566502707",
+      "previous_sibling": "response_1_1584566435666"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en Mendoza, llamá al <strong>0800 800 26843</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:mendoza",
+      "dialog_node": "response_8_1584566656663",
+      "previous_sibling": "response_4_1584566611609"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En CABA, comunicate al <strong>107</strong> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:(capital federal)",
+      "dialog_node": "response_9_1584565351827",
+      "previous_sibling": "response_3_1584566161844"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Si estás en Salta, podés llamar al <strong>911</strong>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1584565252363",
+      "conditions": "@provincias:salta",
+      "dialog_node": "response_9_1584566958932",
+      "previous_sibling": "response_6_1584566898895"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Buenos aires"
+    },
+    {
+      "text": "como denuncio un caso de coronavirus?"
+    },
+    {
+      "text": "Cuarentena"
+    },
+    {
+      "text": "En que horarios puedo lla. Ar"
+    },
+    {
+      "text": "estoy en caba"
+    },
+    {
+      "text": "Falta el aire"
+    },
+    {
+      "text": "Medico"
+    },
+    {
+      "text": "no puede ser dengue?"
+    },
+    {
+      "text": "provincia"
+    },
+    {
+      "text": "puede ser otra enfermedad?"
+    },
+    {
+      "text": "san juan"
+    },
+    {
+      "text": "santa fe"
+    },
+    {
+      "text": "sos watson ?"
+    },
+    {
+      "text": "soy victima de violencia de genero"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "COVID-19",
+  "language": "es",
+  "description": "Protocolo COVID-19"
+}
