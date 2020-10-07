@@ -793,6 +793,9 @@
           "text": "Buenas noches."
         },
         {
+          "text": "buen día!"
+        },
+        {
           "text": "Buenos días, podemos empezar la conversación?"
         },
         {
@@ -880,7 +883,13 @@
           "text": "Me das respuestas automaticas?"
         },
         {
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
           "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Preferiría hablar con un agente virutal."
         },
         {
           "text": "Quiero saber si eres real o no"
@@ -2467,7 +2476,7 @@
           {
             "values": [
               {
-                "text": "Bienvenido. Soy un asistente virtual 🧑‍⚕️preparado para ayudarte con tus dudas respecto al COVID-19 🦠, popularmente conocido como coronavirus."
+                "text": "Bienvenido. Soy un asistente virtual 🧑‍⚕️preparado para ayudarte con tus dudas respecto al COVID-19 🦠, popularmente conocido como coronavirus.\n"
               }
             ],
             "response_type": "text",
@@ -2609,7 +2618,7 @@
           {
             "values": [
               {
-                "text": "Con el fin de proteger la salud pública, todas las personas que habitan en el país o se encuentren en él en forma temporaria deberán permanecer en sus domicilios habituales o en donde se encontraban a las 00:00 horas del día 20 de marzo de 2020.\n\nDeberán abstenerse de concurrir a sus lugares de trabajo y no podrán circular por rutas, vías y espacios públicos.\n\nSolo podrán realizar desplazamientos mínimos e indispensables para aprovisionarse de artículos de limpieza, medicamentos y alimentos.\n\nAl <strong>evitar actividades sociales</strong> (no salir de paseo, no ir a lugares públicos), bajan las probabilidades de transmisión y <strong>ayudamos en especial a las personas que presentan más riesgos</strong> si se contagian."
+                "text": "En los lugares donde rige el “distanciamiento social, preventivo y obligatorio” quedan prohibidas las siguientes actividades:\n\nEventos sociales o familiares en espacios cerrados y en los domicilios de las personas, cualquiera sea la cantidad de concurrentes, salvo el grupo que convive en el domicilio. \n\nEventos en espacios públicos o privados, sociales, culturales, recreativos, religiosos y de cualquier otro tipo que reúnan más de 10 personas. \n\nPráctica de cualquier deporte en el que participen más de 10 personas o que no permita mantener el distanciamiento mínimo de 2 metros entre los participantes. \n\nCines, teatros, clubes, centros culturales.\n\nServicio público de Transporte de pasajeros interurbano, interjurisdiccional e internacional, salvo para los casos expresamente autorizados.\n\nTurismo."
               }
             ],
             "response_type": "text",
@@ -3198,45 +3207,6 @@
     },
     {
       "type": "standard",
-      "title": "excepciones_aislamiento",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Solo están exceptuadas de la prohibición de circular las personas involucradas en las actividades y servicios declarados esenciales en la emergencia, y sus desplazamientos deberán limitarse al estricto cumplimiento de esas actividades y servicios."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Para acceder al listado completo de excepciones, <a href=\"https://www.argentina.gob.ar/coronavirus/aislamiento/exceptuados\">hacé click acá</a>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_8_1584480658687"
-      },
-      "conditions": "#excepciones_aislamiento",
-      "dialog_node": "node_7_1585925535411",
-      "previous_sibling": "node_8_1584480554747"
-    },
-    {
-      "type": "standard",
       "title": "permiso_circulación",
       "output": {
         "generic": [
@@ -3550,7 +3520,7 @@
       },
       "conditions": "#Cierres_Escuelas_COVID",
       "dialog_node": "node_8_1585929064997",
-      "previous_sibling": "node_7_1585925535411"
+      "previous_sibling": "node_8_1584480554747"
     },
     {
       "type": "standard",
